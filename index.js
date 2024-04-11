@@ -39,7 +39,7 @@ async function startThread(reff, processCount) {
 
 const numOfCpus = require("os").cpus().length;
 (async () => {
-  const reff = "T6ajX4PBwB8n";
+  const reff = "e9qqcUYY79nA";
   const processCount = Math.floor(numOfCpus / 2);
   await startThread(reff, processCount);
 })();
